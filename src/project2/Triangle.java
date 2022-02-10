@@ -1,10 +1,14 @@
 package project2;
 
 public class Triangle extends TwoDimensionalShape {
-
-	public Triangle(String shapeName) {
-		super(shapeName);
-		// TODO Auto-generated constructor stub
+	
+	private double base;
+	private double height;
+	
+	public Triangle(double base, double height) {
+		super("Triangle");
+		this.base = base;
+		this.height = height;
 	}
 
 	@Override
