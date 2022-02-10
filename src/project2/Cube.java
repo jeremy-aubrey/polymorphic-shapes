@@ -21,4 +21,8 @@ public class Cube extends ThreeDimensionalShape {
 		return 0;
 	}
 	
+	@Override
+	public String toString() {
+		return String.format("%-10s %s%n%-9s %s%n", "Shape:", shapeName, "Dimension:", dimension);
+	}
 }
