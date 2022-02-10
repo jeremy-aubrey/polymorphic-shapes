@@ -2,11 +2,19 @@ package project2;
 
 public class Sphere extends ThreeDimensionalShape {
 
-	public Sphere(String shapeName) {
-		super(shapeName);
-		// TODO Auto-generated constructor stub
+	private double radius;
+	
+	public Sphere(double radius) {
+		super("Sphere");
+		this.radius = radius;
 	}
 
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
 	@Override
 	public double getVolume() {
 		// TODO Auto-generated method stub
