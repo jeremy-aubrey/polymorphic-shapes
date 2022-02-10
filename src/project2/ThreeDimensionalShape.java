@@ -1,6 +1,6 @@
 package project2;
 
-public abstract class ThreeDimensionalShape {
+public abstract class ThreeDimensionalShape extends Shape {
 	
 	private final String shapeName;
 	private final String dimension = "Three-Dimensional";
