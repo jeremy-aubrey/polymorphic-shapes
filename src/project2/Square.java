@@ -1,10 +1,12 @@
 package project2;
 
 public class Square extends TwoDimensionalShape {
-
-	public Square(String shapeName) {
-		super(shapeName);
-		// TODO Auto-generated constructor stub
+	
+	private double length;
+	
+	public Square(double length) {
+		super("Square");
+		this.length = length;
 	}
 
 	@Override
