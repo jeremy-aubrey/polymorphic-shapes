@@ -81,7 +81,7 @@ public class ShapeTest
    //**************************************************************
    public void developerInfo()
    {
-      System.out.println("Name:    <Put your full name here>");
+      System.out.println("Name:    Jeremy Aubrey");
       System.out.println("Course:  COSC 4301 Modern Programming");
       System.out.println("Project: Two\n");
 
