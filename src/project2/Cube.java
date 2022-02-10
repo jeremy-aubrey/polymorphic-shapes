@@ -2,9 +2,17 @@ package project2;
 
 public class Cube extends ThreeDimensionalShape {
 
-	public Cube(String shapeName) {
-		super(shapeName);
-		// TODO Auto-generated constructor stub
+	private double edge;
+	
+	public Cube(double edge) {
+		super("Cube");
+		this.edge = edge;
+	}
+	
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
@@ -12,5 +20,5 @@ public class Cube extends ThreeDimensionalShape {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
+	
 }
