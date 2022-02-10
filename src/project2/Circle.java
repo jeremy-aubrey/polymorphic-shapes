@@ -2,9 +2,11 @@ package project2;
 
 public class Circle extends TwoDimensionalShape {
 	
-	public Circle(String shapeName) {
-		super(shapeName);
-		// TODO Auto-generated constructor stub
+	private double radius;
+	
+	public Circle(double radius) {
+		super("Circle");
+		this.radius = radius;
 	}
 	
 	@Override
