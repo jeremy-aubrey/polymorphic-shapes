@@ -24,8 +24,7 @@ public class Sphere extends ThreeDimensionalShape {
 	
 	@Override
 	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (4.0/3.0) * PI * (radius * radius * radius);
 	}
 	
 	@Override
