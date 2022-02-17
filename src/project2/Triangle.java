@@ -37,7 +37,8 @@ public class Triangle extends TwoDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape.
+   //  Description:  Returns the name of the shape by calling super
+   //                class method.
    //
    //  Parameters:   None
    //
@@ -54,7 +55,8 @@ public class Triangle extends TwoDimensionalShape {
    //
    //  Method:       getDimension (Non Static)
    // 
-   //  Description:  Returns the dimension of the shape.
+   //  Description:  Returns the dimension of the shape by calling super
+   //                class method.
    //
    //  Parameters:   None
    //
