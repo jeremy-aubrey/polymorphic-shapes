@@ -19,8 +19,7 @@ public class Sphere extends ThreeDimensionalShape {
 	
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 4 * PI * (radius * radius);
 	}
 	
 	@Override
@@ -31,7 +30,10 @@ public class Sphere extends ThreeDimensionalShape {
 	
 	@Override
 	public String toString() {
-		return String.format("%-10s %s%n%-9s %s%n", "Shape:", getShapeName(), "Dimension:", getDimension());
+		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n", 
+				"Shape:", getShapeName(), 
+				"Dimension:", getDimension(),
+				"Area:", String.format("%.1f", getArea()));
 	}
 
 }
