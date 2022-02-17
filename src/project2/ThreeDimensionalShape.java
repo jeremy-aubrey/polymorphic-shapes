@@ -1,8 +1,8 @@
 //********************************************************************
 //
-//  Developer:     Instructor
+//  Developer:     Jeremy Aubrey
 //
-//  Project #:     Two
+//  Project #:     Project 2
 //
 //  File Name:     ThreeDimensionalShape.java
 //
@@ -13,7 +13,7 @@
 //  Instructor:    Fred Kumi 
 //
 //  Description:   Abstract class that extends Shape class. Parent class
-//                 for 3D concrete shape classes.
+//                 for concrete 3D shape classes.
 //
 //********************************************************************
 
@@ -24,20 +24,58 @@ public abstract class ThreeDimensionalShape extends Shape {
 	private final String shapeName;
 	private final String dimension = "Three-Dimensional";
 	
-	//constructor
+	// constructor
 	public ThreeDimensionalShape(String shapeName) {
+		
 		this.shapeName = shapeName;
-	}
+		
+	}// end constructor 
 	
+   //***************************************************************
+   //
+   //  Method:       getShapeName (Non Static)
+   // 
+   //  Description:  Returns the name of the shape.
+   //
+   //  Parameters:   None
+   //
+   //  Returns:      String
+   //
+   //***************************************************************
 	public String getShapeName() {
+		
 		return shapeName;
-	}
+		
+	}// end getShapeName method
 	
+   //***************************************************************
+   //
+   //  Method:       getDimension (Non Static)
+   // 
+   //  Description:  Returns the dimension of the shape.
+   //
+   //  Parameters:   None
+   //
+   //  Returns:      String
+   //
+   //***************************************************************
 	public String getDimension() {
+		
 		return dimension;
-	}
+		
+	}//end getDimension method
 	
-	//must be implemented in concrete subclasses
+   //***************************************************************
+   //
+   //  Method:       getVolume (Abstract)
+   // 
+   //  Description:  Must be implemented in concrete 3D subclasses.
+   //
+   //  Parameters:   None
+   //
+   //  Returns:      double
+   //
+   //***************************************************************
 	public abstract double getVolume();
 	
 }//end ThreeDimensionalShape class
