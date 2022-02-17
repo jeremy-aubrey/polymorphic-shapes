@@ -10,6 +10,14 @@ public class Triangle extends TwoDimensionalShape {
 		this.base = base;
 		this.height = height;
 	}
+	
+	public String getShapeName() {
+		return super.getShapeName();
+	}
+	
+	public String getDimension() {
+		return super.getDimension();
+	}
 
 	@Override
 	public double getArea() {
@@ -19,7 +27,7 @@ public class Triangle extends TwoDimensionalShape {
 
 	@Override
 	public String toString() {
-		return String.format("%-10s %s%n%-9s %s%n", "Shape:", shapeName, "Dimension:", dimension);
+		return String.format("%-10s %s%n%-9s %s%n", "Shape:", getShapeName(), "Dimension:", getDimension());
 	}
 	
 }
