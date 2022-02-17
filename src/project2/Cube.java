@@ -24,8 +24,7 @@ public class Cube extends ThreeDimensionalShape {
 
 	@Override
 	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (edge * edge * edge);
 	}
 	
 	@Override
