@@ -1,8 +1,8 @@
 //********************************************************************
 //
-//  Developer:     Instructor
+//  Developer:     Jeremy Aubrey
 //
-//  Project #:     Two
+//  Project #:     Project 2
 //
 //  File Name:     TwoDimensionalShape.java
 //
@@ -13,7 +13,7 @@
 //  Instructor:    Fred Kumi 
 //
 //  Description:   Abstract class that extends Shape class. Parent class
-//                 for 2D concrete shape classes.
+//                 for concrete 2D shape classes.
 //
 //********************************************************************
 
@@ -24,17 +24,45 @@ public abstract class TwoDimensionalShape extends Shape {
 	private final String shapeName;
 	private final String dimension = "Two-Dimensional";
 	
-	//constructor
+	// constructor
 	public TwoDimensionalShape (String shapeName) {
+		
 		this.shapeName = shapeName;
-	}
+		
+	}// end constructor 
 	
+   //***************************************************************
+   //
+   //  Method:       getShapeName (Non Static)
+   // 
+   //  Description:  Returns the name of the shape.
+   //
+   //  Parameters:   None
+   //
+   //  Returns:      String
+   //
+   //***************************************************************
 	public String getShapeName() {
+		
 		return shapeName;
-	}
+		
+	}// end getShapeName method
 	
+   //***************************************************************
+   //
+   //  Method:       getDimension (Non Static)
+   // 
+   //  Description:  Returns the dimension of the shape.
+   //
+   //  Parameters:   None
+   //
+   //  Returns:      String
+   //
+   //***************************************************************
 	public String getDimension() {
+		
 		return dimension;
-	}
+		
+	}// end getDimension method
 	
 }//end TwoDimensionalShape class
