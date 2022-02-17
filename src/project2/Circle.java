@@ -1,3 +1,22 @@
+//******************************************************************************
+//
+//  Developer:     Jeremy Aubrey
+//
+//  Project #:     Project 2
+//
+//  File Name:     Circle.java
+//
+//  Course:        COSC 4301 - Modern Programming
+//
+//  Due Date:      2/20/2022
+//
+//  Instructor:    Fred Kumi 
+//
+//  Description:   A concrete class for a circle that extends TwoDimensionalShape 
+//                 which extends Shape.
+//
+//******************************************************************************
+
 package project2;
 
 public class Circle extends TwoDimensionalShape {
