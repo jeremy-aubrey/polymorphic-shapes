@@ -29,7 +29,7 @@ public abstract class ThreeDimensionalShape extends Shape {
 		this.shapeName = shapeName;
 	}
 	
-	public String getFirstName() {
+	public String getShapeName() {
 		return shapeName;
 	}
 	
