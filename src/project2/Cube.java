@@ -19,7 +19,7 @@ public class Cube extends ThreeDimensionalShape {
 	
 	@Override
 	public double getArea() {
-		return 6 * (edge * edge);
+		return 6.0 * (edge * edge);
 	}
 
 	@Override
