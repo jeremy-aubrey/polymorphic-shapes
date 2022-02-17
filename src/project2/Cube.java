@@ -9,6 +9,14 @@ public class Cube extends ThreeDimensionalShape {
 		this.edge = edge;
 	}
 	
+	public String getShapeName() {
+		return super.getShapeName();
+	}
+	
+	public String getDimension() {
+		return super.getDimension();
+	}
+	
 	@Override
 	public double getArea() {
 		// TODO Auto-generated method stub
@@ -23,6 +31,6 @@ public class Cube extends ThreeDimensionalShape {
 	
 	@Override
 	public String toString() {
-		return String.format("%-10s %s%n%-9s %s%n", "Shape:", shapeName, "Dimension:", dimension);
+		return String.format("%-10s %s%n%-9s %s%n", "Shape:", getShapeName(), "Dimension:", getDimension());
 	}
 }
