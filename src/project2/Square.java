@@ -70,7 +70,7 @@ public class Square extends TwoDimensionalShape {
     //  Method:       getArea (Non Static)
     // 
     //  Description:  Implements the inherited, abstract getArea method 
-    //                of Shape. Calculates and returns the area of a circle.
+    //                of Shape. Calculates and returns the area of a square.
     //
     //  Parameters:   None
     //
