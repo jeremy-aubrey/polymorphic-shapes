@@ -30,9 +30,10 @@ public class Cube extends ThreeDimensionalShape {
 	
 	@Override
 	public String toString() {
-		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n", 
+		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n%-10s %s%n", 
 				"Shape:", getShapeName(), 
 				"Dimension:", getDimension(),
-				"Area:", String.format("%.1f", getArea()));
+				"Area:", String.format("%.1f", getArea()),
+				"Volume:", String.format("%.1f", getVolume()));
 	}
 }
