@@ -19,13 +19,15 @@ public class Square extends TwoDimensionalShape {
 	
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return length * length;
 	}
 	
 	@Override
 	public String toString() {
-		return String.format("%-10s %s%n%-9s %s%n", "Shape:", getShapeName(), "Dimension:", getDimension());
+		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n", 
+				"Shape:", getShapeName(), 
+				"Dimension:", getDimension(),
+				"Area:", String.format("%.1f", getArea()));
 	}
 	
 }
