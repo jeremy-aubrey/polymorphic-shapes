@@ -21,13 +21,15 @@ public class Triangle extends TwoDimensionalShape {
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (base * height) / 2.0;
 	}
 
 	@Override
 	public String toString() {
-		return String.format("%-10s %s%n%-9s %s%n", "Shape:", getShapeName(), "Dimension:", getDimension());
+		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n", 
+				"Shape:", getShapeName(), 
+				"Dimension:", getDimension(),
+				"Area:", String.format("%.1f", getArea()));
 	}
 	
 }
