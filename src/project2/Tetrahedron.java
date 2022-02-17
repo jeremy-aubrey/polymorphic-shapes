@@ -24,8 +24,7 @@ public class Tetrahedron extends ThreeDimensionalShape {
 
 	@Override
 	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (edge * edge * edge) / (6.0 * Math.sqrt(2));
 	}
 	
 	@Override
