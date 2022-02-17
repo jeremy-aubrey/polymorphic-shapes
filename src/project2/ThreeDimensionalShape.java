@@ -21,8 +21,8 @@ package project2;
 
 public abstract class ThreeDimensionalShape extends Shape {
 	
-	protected final String shapeName;
-	protected final String dimension = "Three-Dimensional";
+	private final String shapeName;
+	private final String dimension = "Three-Dimensional";
 	
 	//constructor
 	public ThreeDimensionalShape(String shapeName) {
