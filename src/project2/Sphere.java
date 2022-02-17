@@ -19,7 +19,7 @@ public class Sphere extends ThreeDimensionalShape {
 	
 	@Override
 	public double getArea() {
-		return 4 * PI * (radius * radius);
+		return 4.0 * PI * (radius * radius);
 	}
 	
 	@Override
