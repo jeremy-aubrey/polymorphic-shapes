@@ -26,8 +26,6 @@ public class Tetrahedron extends ThreeDimensionalShape {
 	// constructor
 	public Tetrahedron(double edge) {
 		
-		super("Tetrahedron");
-		
 		// validation 
 		if(edge > 0) {
 			this.edge = edge;
@@ -41,8 +39,7 @@ public class Tetrahedron extends ThreeDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
@@ -51,7 +48,7 @@ public class Tetrahedron extends ThreeDimensionalShape {
    //***************************************************************
 	public String getShapeName() {
 		
-		return super.getShapeName();
+		return this.getClass().getSimpleName();
 		
 	}// end getShapeName method
 	

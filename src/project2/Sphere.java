@@ -26,8 +26,6 @@ public class Sphere extends ThreeDimensionalShape {
 	// constructor
 	public Sphere(double radius) {
 		
-		super("Sphere");
-		
 		// validation 
 		if(radius > 0) {
 			this.radius = radius;
@@ -41,8 +39,7 @@ public class Sphere extends ThreeDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
@@ -51,7 +48,7 @@ public class Sphere extends ThreeDimensionalShape {
    //***************************************************************
 	public String getShapeName() {
 		
-		return super.getShapeName();
+		return this.getClass().getSimpleName();
 		
 	}// end getShapeName method
 	

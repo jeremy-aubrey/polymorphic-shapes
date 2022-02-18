@@ -26,8 +26,6 @@ public class Cube extends ThreeDimensionalShape {
 	// constructor
 	public Cube(double edge) {
 		
-		super("Cube");
-		
 		// validation
 		if(edge > 0) {
 			this.edge = edge;
@@ -41,8 +39,7 @@ public class Cube extends ThreeDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
@@ -51,7 +48,7 @@ public class Cube extends ThreeDimensionalShape {
    //***************************************************************
 	public String getShapeName() {
 		
-		return super.getShapeName();
+		return this.getClass().getSimpleName();
 		
 	}// end getShapeName method
 	
