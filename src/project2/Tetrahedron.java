@@ -27,7 +27,13 @@ public class Tetrahedron extends ThreeDimensionalShape {
 	public Tetrahedron(double edge) {
 		
 		super("Tetrahedron");
-		this.edge = edge;
+		
+		// validation 
+		if(edge > 0) {
+			this.edge = edge;
+		} else {
+			this.edge = 0;
+		}
 		
 	}// end constructor
 	

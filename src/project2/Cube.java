@@ -27,7 +27,13 @@ public class Cube extends ThreeDimensionalShape {
 	public Cube(double edge) {
 		
 		super("Cube");
-		this.edge = edge;
+		
+		// validation
+		if(edge > 0) {
+			this.edge = edge;
+		} else {
+			this.edge = 0;
+		}
 		
 	}// end constructor
 	

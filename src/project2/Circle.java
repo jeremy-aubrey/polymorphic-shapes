@@ -27,7 +27,13 @@ public class Circle extends TwoDimensionalShape {
 	public Circle(double radius) {
 		
 		super("Circle");
-		this.radius = radius;
+		
+		// validation 
+		if(radius > 0) {
+			this.radius = radius;
+		} else {
+			this.radius = 0;
+		}
 		
 	}// end constructor
 	

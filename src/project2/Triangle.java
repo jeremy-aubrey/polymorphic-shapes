@@ -28,8 +28,15 @@ public class Triangle extends TwoDimensionalShape {
 	public Triangle(double base, double height) {
 		
 		super("Triangle");
-		this.base = base;
-		this.height = height;
+		
+		// validation
+		if(base > 0 && height > 0) {
+			this.base = base;
+			this.height = height;
+		} else {
+			this.base = 0;
+			this.height = 0;
+		}
 		
 	}// end constructor
 	

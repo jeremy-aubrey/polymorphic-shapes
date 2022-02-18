@@ -27,7 +27,13 @@ public class Sphere extends ThreeDimensionalShape {
 	public Sphere(double radius) {
 		
 		super("Sphere");
-		this.radius = radius;
+		
+		// validation 
+		if(radius > 0) {
+			this.radius = radius;
+		} else {
+			this.radius = 0;
+		}
 		
 	}// end constructor
 

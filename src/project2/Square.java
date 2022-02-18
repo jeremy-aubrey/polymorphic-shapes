@@ -27,7 +27,13 @@ public class Square extends TwoDimensionalShape {
 	public Square(double length) {
 		
 		super("Square");
-		this.length = length;
+		
+		// validation
+		if(length > 0) {
+			this.length = length;
+		} else {
+			this.length = 0;
+		}
 		
 	}// end constructor
 
