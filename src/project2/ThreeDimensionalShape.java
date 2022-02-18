@@ -21,32 +21,7 @@ package project2;
 
 public abstract class ThreeDimensionalShape extends Shape {
 	
-	private final String shapeName;
 	private final String dimension = "Three-Dimensional";
-	
-	// constructor
-	public ThreeDimensionalShape(String shapeName) {
-		
-		this.shapeName = shapeName;
-		
-	}// end constructor 
-	
-   //***************************************************************
-   //
-   //  Method:       getShapeName (Non Static)
-   // 
-   //  Description:  Returns the name of the shape.
-   //
-   //  Parameters:   None
-   //
-   //  Returns:      String
-   //
-   //***************************************************************
-	public String getShapeName() {
-		
-		return shapeName;
-		
-	}// end getShapeName method
 	
    //***************************************************************
    //
