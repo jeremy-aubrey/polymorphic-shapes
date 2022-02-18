@@ -39,8 +39,7 @@ public class Square extends TwoDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
@@ -57,7 +56,8 @@ public class Square extends TwoDimensionalShape {
    //
    //  Method:       getDimension (Non Static)
    // 
-   //  Description:  Returns the name of the shape (class name).
+   //  Description:  Returns the dimension of the shape by calling super
+   //                class method.
    //
    //  Parameters:   None
    //
