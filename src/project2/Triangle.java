@@ -111,9 +111,9 @@ public class Triangle extends TwoDimensionalShape {
 	public String toString() {
 		
 		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n", 
-				"Shape:", getShapeName(), 
-				"Dimension:", getDimension(),
-				"Area:", String.format("%.1f", getArea()));
+			"Shape:", getShapeName(), 
+			"Dimension:", getDimension(),
+			"Area:", String.format("%.1f", getArea()));
 		
 	}// end toString method
 	

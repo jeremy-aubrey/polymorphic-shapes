@@ -128,10 +128,10 @@ public class Cube extends ThreeDimensionalShape {
 	public String toString() {
 		
 		return String.format("%-10s %s%n%-9s %s%n%-10s %s%n%-10s %s%n", 
-				"Shape:", getShapeName(), 
-				"Dimension:", getDimension(),
-				"Area:", String.format("%.1f", getArea()),
-				"Volume:", String.format("%.1f", getVolume()));
+			"Shape:", getShapeName(), 
+			"Dimension:", getDimension(),
+			"Area:", String.format("%.1f", getArea()),
+			"Volume:", String.format("%.1f", getVolume()));
 		
 	}// end toString method
 	
