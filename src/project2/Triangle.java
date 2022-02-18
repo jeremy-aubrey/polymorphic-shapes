@@ -27,8 +27,6 @@ public class Triangle extends TwoDimensionalShape {
 	// constructor
 	public Triangle(double base, double height) {
 		
-		super("Triangle");
-		
 		// validation
 		if(base > 0 && height > 0) {
 			this.base = base;
@@ -44,8 +42,7 @@ public class Triangle extends TwoDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
@@ -54,7 +51,7 @@ public class Triangle extends TwoDimensionalShape {
    //***************************************************************
 	public String getShapeName() {
 		
-		return super.getShapeName();
+		return this.getClass().getSimpleName();
 		
 	}// end getShapeName method
 	

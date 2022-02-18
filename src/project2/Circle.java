@@ -26,8 +26,6 @@ public class Circle extends TwoDimensionalShape {
 	// constructor
 	public Circle(double radius) {
 		
-		super("Circle");
-		
 		// validation 
 		if(radius > 0) {
 			this.radius = radius;
@@ -41,8 +39,7 @@ public class Circle extends TwoDimensionalShape {
    //
    //  Method:       getShapeName (Non Static)
    // 
-   //  Description:  Returns the name of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
@@ -51,7 +48,7 @@ public class Circle extends TwoDimensionalShape {
    //***************************************************************
 	public String getShapeName() {
 		
-		return super.getShapeName();
+		return this.getClass().getSimpleName();
 		
 	}// getShapeName method
 	

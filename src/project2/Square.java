@@ -26,8 +26,6 @@ public class Square extends TwoDimensionalShape {
 	// constructor
 	public Square(double length) {
 		
-		super("Square");
-		
 		// validation
 		if(length > 0) {
 			this.length = length;
@@ -51,7 +49,7 @@ public class Square extends TwoDimensionalShape {
    //***************************************************************	
 	public String getShapeName() {
 		
-		return super.getShapeName();
+		return this.getClass().getSimpleName();
 		
 	}// end getShapeName method
 	
@@ -59,8 +57,7 @@ public class Square extends TwoDimensionalShape {
    //
    //  Method:       getDimension (Non Static)
    // 
-   //  Description:  Returns the dimension of the shape by calling super
-   //                class method.
+   //  Description:  Returns the name of the shape (class name).
    //
    //  Parameters:   None
    //
