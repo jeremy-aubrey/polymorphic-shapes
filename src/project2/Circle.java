@@ -35,40 +35,7 @@ public class Circle extends TwoDimensionalShape {
 		
 	}// end constructor
 	
-   //***************************************************************
-   //
-   //  Method:       getShapeName (Non Static)
-   // 
-   //  Description:  Returns the name of the shape (class name).
-   //
-   //  Parameters:   None
-   //
-   //  Returns:      String
-   //
-   //***************************************************************
-	public String getShapeName() {
-		
-		return this.getClass().getSimpleName();
-		
-	}// getShapeName method
-	
-   //***************************************************************
-   //
-   //  Method:       getDimension (Non Static)
-   // 
-   //  Description:  Returns the dimension of the shape by calling super
-   //                class method.
-   //
-   //  Parameters:   None
-   //
-   //  Returns:      String
-   //
-   //***************************************************************
-	public String getDimension() {
-		
-		return super.getDimension();
-		
-	}// end getDimension method
+
 	
     //***************************************************************
     //
