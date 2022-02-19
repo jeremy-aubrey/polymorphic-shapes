@@ -25,6 +25,24 @@ public abstract class ThreeDimensionalShape extends Shape {
 	
    //***************************************************************
    //
+   //  Method:       getShapeName (Non Static)
+   // 
+   //  Description:  Returns the name of the shape (class name) of the
+   //                caller.
+   //
+   //  Parameters:   None
+   //
+   //  Returns:      String
+   //
+   //***************************************************************
+	public String getShapeName() {
+		
+		return this.getClass().getSimpleName();
+		
+	}// getShapeName method
+	
+   //***************************************************************
+   //
    //  Method:       getDimension (Non Static)
    // 
    //  Description:  Returns the dimension of the shape.
