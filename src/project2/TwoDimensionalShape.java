@@ -39,7 +39,7 @@ public abstract class TwoDimensionalShape extends Shape {
 		
 		return this.getClass().getSimpleName();
 		
-		}// getShapeName method
+	}// getShapeName method
 	
    //***************************************************************
    //
